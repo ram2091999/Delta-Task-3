@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.topnav {
+    background-color: #17223b;
+    overflow: hidden;
+    height: 50px;
+    padding: 3px;
+}
+body{
+  background-color: #263859;
+}
+h1,li{
+  color:#ff6768 ;
+}
+p{
+  color: #ff6768 ;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a ,.topnav h1{
+  float: left;
+  color:#ff6768 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+.nested-ul{
+  margin-left:20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#6b778d;
+}
+
+/* Add a color to the active/current link */
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding:3px;
+  width: 100%;
+  background-color: #17223b;
+  color: #ff6768 ;
+  text-align: center;
+}
+form,.submission{
+  border:1px solid #ff6768 ;
+  width:400px;
+  height: 270px;
+  border-radius: 50px;
+  background-color: #6b778d;
+  padding: 20px;
+  position: relative;
+  left:300px;
+  top:100px;
+}
+.submission{
+  padding:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+label{
+  display: inline-block;
+  color:#ff6768 ;
+}
+input{
+  display: block;
+  width: 300px;
+  height: 25px;
+}
+button{
+  margin:10px;
+  width: 300px;
+  height: 25px;
+  border-radius: 15px;
+}
+button:hover{
+  background-color: #ff6768 ;
+  cursor: pointer;
+}

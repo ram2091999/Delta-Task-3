@@ -1,0 +1,16 @@
+<%- include partials/header.ejs -%>
+<h1>Trending forms:</h1>
+<ul>
+
+
+<%docs.forEach(function(e){%>
+
+   <li><%=e.formTitle%> by <%=e.username%></li>
+
+
+
+<%});%>
+
+</ul>
+<button type="button" onclick="window.location.href='/login'"name="button">Login To fill!</button>
+<%- include partials/footer.ejs -%>
