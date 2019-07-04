@@ -492,7 +492,9 @@ app.post("/newForm/:user",function(req,res){
   res.redirect("/user/"+currrentUser);
   });
 
-  var defaultOptions=[[{fieldName:"Weight",fieldType:"number"},{fieldName:"age",fieldType:"number"},{fieldName:"Height",fieldType:"number"}],[{fieldName:"Name",fieldType:"text"},{fieldName:"Daily calorie consumption",fieldType:"number"}]];
+  //var defaultOptions=[[{fieldName:"Weight",fieldType:"number"},{fieldName:"age",fieldType:"number"},{fieldName:"Height",fieldType:"number"}],[{fieldName:"Name",fieldType:"text"},{fieldName:"Daily calorie consumption",fieldType:"number"}]];
+   //var defaultOptions=[[{fieldName:"Weight",fieldType:"number"},{fieldName:"age",fieldType:"number"},{fieldName:"Height",fieldType:"number"},{fieldName:"Eating patterns",fieldType:"text"}],[{fieldName:"Name",fieldType:"text"},{fieldName:"Daily calorie consumption",fieldType:"number"},{fieldName:"age",fieldType:"number"},{fieldName:"Your picture",fieldType:"file"}]];
+   var defaultOptions=[[{fieldName:"Weight",fieldType:"number"},{fieldName:"age",fieldType:"number"},{fieldName:"Height",fieldType:"number"},{fieldName:"Eating patterns",fieldType:"text"}],[{fieldName:"Name",fieldType:"text"},{fieldName:"Daily calorie consumption",fieldType:"number"},{fieldName:"age",fieldType:"number"},{fieldName:"Your picture",fieldType:"file"}]];
 
   app.get("/addInput/:user",function(req,res){
     currrentUser=req.params.user;
